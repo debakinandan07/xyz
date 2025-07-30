@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+/* For screens up to 800px */
+@media (max-width: 800px) {
+    h1 {
+        font-size: 4rem;
+    }
+}
+
+/* For screens up to 600px */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+/* For screens up to 400px */
+@media (max-width: 400px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
